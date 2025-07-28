@@ -1,0 +1,1001 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/font.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
+      integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <title>Fintech</title>
+  </head>
+  <body>
+    <header class="bg-transparent absolute z-11 w-full left-0">
+      <div class="max-w-[73.125rem] w-full mx-auto px-4">
+        <div
+          class="flex justify-between items-center py-7 mt-6 max-lg:mt-0 max-lg:pb-0"
+        >
+          <a href="#" class="flex items-center">
+            <img src="./images/logo.svg" alt="logo" />
+            <span class="text-[28px] font-bold ml-2">Monks Pay</span>
+          </a>
+
+          <ul class="max-md:hidden block flex items-center gap-8">
+            <li>
+              <a href="#features" class="text-lg font-semibold text-[#4D525F]"
+                >Features</a
+              >
+            </li>
+            <li>
+              <a href="#price" class="text-lg font-semibold text-[#4D525F]"
+                >Pricing</a
+              >
+            </li>
+            <li>
+              <a href="#security" class="text-lg font-semibold text-[#4D525F]"
+                >Security</a
+              >
+            </li>
+            <li>
+              <a href="#benifits" class="text-lg font-semibold text-[#4D525F]"
+                >Benifits</a
+              >
+            </li>
+          </ul>
+          <div class="max-md:hidden block">
+            <a href=""
+              ><button
+                class="font-semibold text-white bg-[#2E68FD] py-2 px-6 rounded-full cursor-pointer border-[#2E68FD] border hover:bg-white hover:text-[#2E68FD] trasition-all duration-1000 ease-in-out"
+              >
+                Buy Template
+              </button></a
+            >
+          </div>
+          <div class="max-md:block hidden">
+            <button class="cursor-pointer text-3xl">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section
+      class="bg-[url('./images/hero-bg.png')] bg-center bg-cover bg-no-reapet pt-26 max-lg:pt-19"
+    >
+      <div class="max-w-[73.125rem] w-full mx-auto px-4">
+        <div class="flex max-lg:flex-col-reverse">
+          <div
+            class="pt-20 max-lg:pt-5 pb-36 max-lg:pb-5 lg:max-w-[638px] w-full max-lg:flex max-lg:flex-col max-lg:justify-center max-lg:items-center"
+          >
+            <div
+              class="max-lg:flex max-lg:flex-col max-lg:justify-center max-lg:items-center"
+            >
+              <span class="text-[#932EFA] font-semibold custom-font"
+                >EASY PAYMENT</span
+              >
+              <h1
+                class="max-md:text-center text-[64px] max-lg:text-[30px] mb-3 relative before:bg-auto before:content-[url('./images/hero-border.svg')] before:absolute before:top-[10%] before:left-[18%] max-lg:before:top-[38%] max-lg:before:left-[11%] max-sm:before:hidden"
+              >
+                Pay fast and smarter from anywhere
+              </h1>
+              <p class="max-md:text-center">
+                Experience the future of payments: fast, secure, and tailored
+                for the next generation's convenience and trust.
+              </p>
+            </div>
+            <div class="mt-12">
+              <div class="flex gap-2 mb-4 max-md:flex-col">
+                <div
+                  class="bg-black border border-[#001F36] flex items-center p-[9.6px] rounded-[7.2px] cursor-pointer"
+                >
+                  <img class="w-6 h-7" src="./images/Apple.svg" alt="Apple" />
+                  <div class="flex flex-col ml-2">
+                    <span
+                      class="text-white text-[10.8px] leading-[10.8px] tracking-[0px]"
+                      >Download on the</span
+                    >
+                    <span
+                      class="text-white text-xl font-medium leading-[100%] tracking-[-0.56px]"
+                      >App Store</span
+                    >
+                  </div>
+                </div>
+                <div
+                  class="bg-black border- border-[#001F36] flex items-center p-[9.6px] rounded-[7.2px] cursor-pointer"
+                >
+                  <img
+                    class="w-6 h-7"
+                    src="./images/Playstore.svg"
+                    alt="Playstore"
+                  />
+                  <div class="flex flex-col ml-2">
+                    <span
+                      class="text-white text-[10.8px] leading-[10.8px] tracking-[0px]"
+                      >GET IT ON</span
+                    >
+                    <span
+                      class="text-white text-xl font-medium leading-[100%] tracking-[-0.56px]"
+                      >Google Play</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="flex gap-2 max-md:flex-col">
+                <div class="flex gap-1 max-md:justify-center">
+                  <img
+                    src="./images/checkmark-circle-02.svg"
+                    alt="checkmark-circle"
+                  />
+                  <p>No Card required</p>
+                </div>
+                <div class="flex gap-1 max-md:justify-center">
+                  <img
+                    src="./images/checkmark-circle-02.svg"
+                    alt="checkmark-circle"
+                  />
+                  <p>Fast acceptance</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="relative">
+            <img
+              class="w-full h-full object-cover max-lg:w-1/2 max-lg:mx-auto"
+              src="./images/image 4.svg"
+              alt="hero"
+            />
+            <div
+              class="p-5 max-w-[208.7px] rounded-lg absolute bottom-[10%] bg-white shadow-[box-shadow:_0px_-16.32px_20.4px_0px_#2E68FD0A] shadow-[box-shadow:_-20.4px_20.4px_30.61px_0px_#2E68FD14] max-sm:hidden"
+            >
+              <span class="text-[16.32px] font-semibold">Payment Received</span>
+              <span class="block text-lg font-bold text-[#2E68FD]"
+                >+35,890.00</span
+              >
+              <span class="text-sm text-[#4D525F]" style="font-family: 'Outfit'"
+                >1th Jan, 2024</span
+              >
+              <span class="text-sm text-[#37C390]" style="font-family: 'Outfit'"
+                >3.09%
+              </span>
+            </div>
+            <div
+              class="p-4 flex max-w-[210px] w-full rounded-[8px] absolute top-[37%] right-[calc(0%_-_78px)] max-lg:right-[calc(0%_+_50px)] max-xl:right-[calc(0%_-_20px)] bg-white max-sm:hidden"
+            >
+              <div class="flex -space-x-4">
+                <img
+                  class="rounded-full border-[4px] border-white w-10 h-10"
+                  src="./images/Avatar Image.svg"
+                  alt="Avatar"
+                />
+                <img
+                  class="rounded-full border-[4px] border-white w-10 h-10"
+                  src="./images/Avatar Image (1).svg"
+                  alt="Avatar"
+                />
+                <img
+                  class="rounded-full border-[4px] border-white w-10 h-10"
+                  src="./images/Avatar Image (2).svg"
+                  alt="Avatar"
+                />
+              </div>
+              <div class="ml-2">
+                <span class="font-semibold text-[#01081B]">120+</span>
+                <p class="text-sm">Active users</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="py-30 max-lg:py-15 max-md:py-7.5">
+      <div class="max-w-[73.125rem] w-full mx-auto px-4">
+        <div class="text-center">
+          <span
+            class="text-[#932EFA] font-semibold"
+            style="font-family: 'Outfit'"
+            >FEATURES</span
+          >
+          <h2
+            class="font-bold text-[40px] max-lg:text-3xl max-md:text-2xl text-[#01081B] mx-auto max-w-[480px] w-full"
+          >
+            Why choose Monks Pay for effortless payments?
+          </h2>
+        </div>
+
+        <div
+          class="mt-12 max-md:mt-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6"
+        >
+          <div class="w-full bg-[#F3F7FF] px-5.5 py-8 text-center rounded-2xl">
+            <img class="mx-auto" src="./images/fi-1.svg" alt="Image" />
+            <h4
+              class="text-xl font-bold text-[#01081B] mt-10 max-md:mt-2.5 mb-2"
+            >
+              Instant payments
+            </h4>
+            <p>Send money to friends or family in real-time, for free.</p>
+          </div>
+
+          <div class="w-full bg-[#FBF6EF] px-5.5 py-8 text-center rounded-2xl">
+            <img class="mx-auto" src="./images/fi-2.svg" alt="Image" />
+            <h4
+              class="text-xl font-bold text-[#01081B] mt-10 max-md:mt-2.5 mb-2"
+            >
+              No hidden fees
+            </h4>
+            <p>Clear and simple pricing. Always be aware of your costs.</p>
+          </div>
+          <div class="w-full bg-[#EEF9FE] px-5.5 py-8 text-center rounded-2xl">
+            <img class="mx-auto" src="./images/fi-3.svg" alt="Image" />
+            <h4
+              class="text-xl font-bold text-[#01081B] mt-10 max-md:mt-2.5 mb-2"
+            >
+              Digital wallet
+            </h4>
+            <p>Store money securely and make fast transfers or purchases.</p>
+          </div>
+          <div class="w-full bg-[#F4EDFC] px-5.5 py-8 text-center rounded-2xl">
+            <img class="mx-auto" src="./images/fi-4.svg" alt="Image" />
+            <h4
+              class="text-xl font-bold text-[#01081B] mt-10 max-md:mt-2.5 mb-2"
+            >
+              Secure transactions
+            </h4>
+            <p>End-to-end encryption for all transactions.</p>
+          </div>
+        </div>
+
+        <div class="mt-18 max-lg:hidden">
+          <div class="flex justify-between items-center">
+            <ul class="flex justify-between items-center gap-18">
+              <li>
+                <a href="#">
+                  <img
+                    class="object-contain w-47.5 h-10"
+                    src="./images/Frame-1.svg"
+                    alt="Frame-1"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img
+                    class="object-contain w-47.5 h-10"
+                    src="./images/Frame-2.svg"
+                    alt="Frame-2"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img
+                    class="object-contain w-47.5 h-10"
+                    src="./images/Frame-3.svg"
+                    alt="Frame-3"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img
+                    class="object-contain w-47.5 h-10"
+                    src="./images/Frame-4.svg"
+                    alt="Frame-4"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img
+                    class="object-contain w-47.5 h-10"
+                    src="./images/Frame-5.svg"
+                    alt="Frame-5"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img
+                    class="object-contain w-47.5 h-10"
+                    src="./images/Frame-6.svg"
+                    alt="Frame-6"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="bg-[#F6F6F6] py-30 max-lg:py-15 max-md:py-7.5"
+      id="benifits"
+    >
+      <div class="max-w-[73.125rem] w-full mx-auto px-4">
+        <div class="text-start">
+          <span
+            class="text-[#932EFA] font-semibold"
+            style="font-family: 'Outfit'"
+            >HOW IT WORKS</span
+          >
+          <h2
+            class="font-bold text-[40px] max-lg:text-3xl max-md:text-2xl text-[#01081B] max-w-[562px] w-full"
+          >
+            Make payments, transfers, and more in 3 simple steps
+          </h2>
+        </div>
+        <div class="mt-12 max-md:mt-5">
+          <div
+            class="bg-white grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 rounded-2xl max-md:mx-0"
+          >
+            <div
+              class="pl-0 pr-15 max-md:px-0 mx-7.5 max-md:mx-0 relative max-md:before:hidden before:content-[''] before:absolute before:top-[50%] before:translate-y-[-50%] before:right-0 before:border before:h-[181px] before:border-[#CBCBCB]"
+            >
+              <div class="max-md:text-center">
+                <span
+                  class="text-[80px] font-bold text-[#F3F3F3] relative before:content-[''] before:absolute before:bg-[url('./images/fi_1.svg')] before:bg-cover before:bg-no-reapet before:h-12 before:w-12 before:bottom-0 before:left-[50%] before:translate-x-[-50%]"
+                  >01</span
+                >
+              </div>
+              <div class="p-6 px-0 max-md:text-center">
+                <h4 class="text-[#01081B] text-xl font-bold">
+                  Download Monks Pay
+                </h4>
+                <p>
+                  Get the Monks Pay app today from the App Store or Google Play
+                  hassle free.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="pl-0 pr-15 max-md:px-0 mx-7.5 max-md:mx-0 relative max-lg:before:hidden before:content-[''] before:absolute before:top-[50%] before:translate-y-[-50%] before:right-0 before:border before:h-[181px] before:border-[#CBCBCB]"
+            >
+              <div class="max-md:text-center">
+                <span
+                  class="text-[80px] font-bold text-[#F3F3F3] relative before:content-[''] before:absolute before:bg-[url('./images/fi_2.svg')] before:bg-cover before:bg-no-reapet before:h-12 before:w-12 before:bottom-0 before:left-[50%] before:translate-x-[-50%]"
+                  >02</span
+                >
+              </div>
+              <div class="p-6 px-0 max-md:px-0 max-md:text-center">
+                <h4 class="text-[#01081B] text-xl font-bold">
+                  Link your bank or card
+                </h4>
+                <p>
+                  Easily connect your account in seconds with advanced security
+                  for peace of mind.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="max-lg:pl-0 max-md:px-0 md:pr-15 mx-7.5 max-md:mx-0 relative max-md:before:hidden lg:before:hidden before:content-[''] before:absolute before:top-[50%] before:translate-y-[-50%] before:right-0 before:border before:h-[181px] before:border-[#CBCBCB]"
+            >
+              <div class="max-md:text-center">
+                <span
+                  class="text-[80px] font-bold text-[#F3F3F3] relative before:content-[''] before:absolute before:bg-[url('./images/fi_3.svg')] before:bg-cover before:bg-no-reapet before:h-12 before:w-12 before:bottom-0 before:left-[50%] before:translate-x-[-50%]"
+                  >03</span
+                >
+              </div>
+              <div class="p-6 px-0 max-md:text-center">
+                <h4 class="text-[#01081B] text-xl font-bold">Start paying</h4>
+                <p>
+                  Easily split bills, send money to friends, and make smooth
+                  online payments instantly.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="mt-6">
+            <video class="h-full w-full rounded-2xl" controls>
+              <source src="./videos/video.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-white py-30 max-lg:py-15 max-md:py-7.5" id="security">
+      <div class="max-w-[73.125rem] w-full mx-auto px-4">
+        <div class="text-start">
+          <div
+            class="flex lg:justify-between lg:items-center flex-col lg:flex-row"
+          >
+            <div>
+              <span
+                class="text-[#932EFA] font-semibold"
+                style="font-family: 'Outfit'"
+                >SECURITY</span
+              >
+              <h2
+                class="font-bold text-[40px] max-lg:text-3xl max-md:text-2xl text-[#01081B] max-w-[562px] w-full"
+              >
+                We protect your money at every step with Monks Pay
+              </h2>
+            </div>
+            <div class="max-w-[377px]">
+              <p>
+                Monks Pay ensures your money is protected at every step with
+                advanced encryption, real-time monitoring, and multi-factor
+                authentication.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="py-10 px-6 mt-11 max-lg:mt-5 bg-[url('./images/hero-bg.png')] bg-top-left bg-cover bg-no-reapet grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 rounded-2xl relative before:content-[''] before:absolute before:w-full before:h-full before:backdrop-blur-[80px] before:z-20 before:rounded-2xl z-10"
+        >
+          <div
+            class="md:px-6 max-md:text-center z-30 relative before:content-[''] before:absolute before:top-[50%] before:translate-y-[-50%] before:right-[-21px] before:border before:h-37 before:border-[#CBCBCB] max-md:before:hidden"
+          >
+            <div
+              class="w-7 h-7 max-md:mx-auto rounded-full bg-[#ECF0FB] flex justify-center items-center"
+            >
+              <span class="bg-[#2E68FD] rounded-full w-2.5 h-2.5"></span>
+            </div>
+            <h4 class="text-[#01081B] text-xl font-bold mt-6">
+              Two-factor authentication
+            </h4>
+            <p>
+              Two-factor authentication ensures added protection by using
+              verification steps.
+            </p>
+          </div>
+
+          <div
+            class="md:px-6 max-md:text-center z-30 relative before:content-[''] before:absolute before:top-[50%] before:translate-y-[-50%] before:right-[-21px] before:border before:h-37 before:border-[#CBCBCB] max-lg:before:hidden"
+          >
+            <div
+              class="w-7 h-7 max-md:mx-auto rounded-full bg-[#FEEDED] flex justify-center items-center"
+            >
+              <span class="bg-[#FC4343] rounded-full w-2.5 h-2.5"></span>
+            </div>
+            <h4 class="text-[#01081B] text-xl font-bold mt-6">
+              Fraud detection and alerts
+            </h4>
+            <p>
+              Fraud detection safeguards your money, sending instant alerts for
+              any activity.
+            </p>
+          </div>
+          <div
+            class="md:px-6 max-md:text-center z-30 relative before:content-[''] before:absolute before:top-[50%] before:translate-y-[-50%] before:right-[-21px] before:border before:h-37 before:border-[#CBCBCB] max-md:before:hidden lg:before:hidden"
+          >
+            <div
+              class="w-7 h-7 max-md:mx-auto rounded-full bg-[#E5FCF2] flex justify-center items-center"
+            >
+              <span class="bg-[#08A965] rounded-full w-2.5 h-2.5"></span>
+            </div>
+            <h4 class="text-[#01081B] text-xl font-bold mt-6">
+              Transaction notifications
+            </h4>
+            <p>
+              Instant notifications for transaction keep you informed to manage
+              your finances.
+            </p>
+          </div>
+          <div
+            class="md:px-6 max-md:text-center z-30 relative before:content-[''] before:absolute before:top-[50%] before:translate-y-[-50%] before:right-[-21px] before:border before:h-37 before:border-[#CBCBCB] max-lg:before:hidden"
+          >
+            <div
+              class="w-7 h-7 max-md:mx-auto rounded-full bg-[#E1F1F9] flex justify-center items-center"
+            >
+              <span class="bg-[#3B7793] rounded-full w-2.5 h-2.5"></span>
+            </div>
+            <h4 class="text-[#01081B] text-xl font-bold mt-6">
+              Biometric access
+            </h4>
+            <p>
+              Easily and securely log in with biometric features, and facial
+              recognition.
+            </p>
+          </div>
+          <div
+            class="md:px-6 max-md:text-center z-30 relative before:content-[''] before:absolute before:top-[50%] before:translate-y-[-50%] before:right-[-21px] before:border before:h-37 before:border-[#CBCBCB] max-md:before:hidden"
+          >
+            <div
+              class="w-7 h-7 max-md:mx-auto rounded-full bg-[#FAEEE2] flex justify-center items-center"
+            >
+              <span class="bg-[#D77E1B] rounded-full w-2.5 h-2.5"></span>
+            </div>
+            <h4 class="text-[#01081B] text-xl font-bold mt-6">
+              End-to-end encryption
+            </h4>
+            <p>By encryption, protecting your data from unauthorized access.</p>
+          </div>
+          <div class="md:px-6 max-md:text-center relative z-30">
+            <div
+              class="w-7 h-7 max-md:mx-auto rounded-full bg-[#F4EDFC] flex justify-center items-center"
+            >
+              <span class="bg-[#932EFA] rounded-full w-2.5 h-2.5"></span>
+            </div>
+            <h4 class="text-[#01081B] text-xl font-bold mt-6">
+              24/7 Protection support
+            </h4>
+            <p>Our dedicated team is available around the clock to help you.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="price"
+      class="pb-30 max-lg:pb-15 max-md:pb-7.5 relative before:content-[''] before:absolute before:bottom-[21%] before:left-[50%] before:translate-x-[-50%] before:w-[500px] before:h-[250px] before:bg-[#CD9BFF] before:bg-[radial-gradient(closest-side,rgba(213,174,228,1),white)] before:-z-10 before:backdrop-blur-[200px] before:max-md:hidden"
+    >
+      <img
+        class="absolute top-[-15%] right-0"
+        src="./images/pricing.svg"
+        alt=""
+      />
+      <div class="max-w-[73.125rem] w-full mx-auto px-4">
+        <div class="text-center">
+          <span
+            class="text-[#932EFA] font-semibold"
+            style="font-family: 'Outfit'"
+            >PRICING</span
+          >
+          <h2
+            class="font-bold text-[40px] max-lg:text-3xl max-md:text-2xl text-[#01081B] mx-auto max-w-[484px] w-full"
+          >
+            Simple transparent pricing no hidden fees
+          </h2>
+        </div>
+
+        <div
+          class="mt-12 max-md:mt-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+        >
+          <div
+            class="bg-white border border-[#E7E7E8] rounded-2xl px-6 py-10 flex flex-col group hover:bg-[#01081B] trasition-all duration-1000 ease-in-out"
+          >
+            <div class="pb-6">
+              <h3
+                class="font-bold text-[#01081B] text-2xl group-hover:text-white trasition-all duration-1000 ease-in-out"
+              >
+                Free Plan
+              </h3>
+              <p
+                class="mt-1 mb-5.5 group-hover:!text-[#B1B2B2] trasition-all duration-1000 ease-in-out"
+              >
+                Free for personal payments.
+              </p>
+              <span
+                class="text-[#01081B] font-bold text-[56px] max-md:text-3xl group-hover:text-white trasition-all duration-1000 ease-in-out"
+                >$0</span
+              ><span
+                class="group-hover:text-[#B1B2B2] trasition-all duration-1000 ease-in-out"
+                >/month</span
+              >
+            </div>
+            <div class="border-t border-t-[#CBCBCB] pt-6 mb-18 max-md:mb-4">
+              <div class="flex items-center mb-2">
+                <div
+                  class="rounded-full h-7 w-7 bg-[#ECF0FB] group-hover:bg-[#26272C] flex justify-center items-center trasition-all duration-1000 ease-in-out"
+                >
+                  <i
+                    class="fa-solid fa-check text-[#2E68FD] group-hover:text-white trasition-all duration-1000 ease-in-out"
+                  ></i>
+                </div>
+                <p
+                  class="ml-2 group-hover:!text-[#B1B2B2] trasition-all duration-1000 ease-in-out"
+                >
+                  Up to 100 transections per month
+                </p>
+              </div>
+              <div class="flex items-center mb-2">
+                <div
+                  class="rounded-full h-7 w-7 bg-[#ECF0FB] group-hover:bg-[#26272C] flex justify-center items-center trasition-all duration-1000 ease-in-out"
+                >
+                  <i
+                    class="fa-solid fa-check text-[#2E68FD] group-hover:text-white trasition-all duration-1000 ease-in-out"
+                  ></i>
+                </div>
+                <p
+                  class="ml-2 group-hover:!text-[#B1B2B2] trasition-all duration-1000 ease-in-out"
+                >
+                  Basic proud protection
+                </p>
+              </div>
+              <div class="flex items-center mb-2">
+                <div
+                  class="rounded-full h-7 w-7 bg-[#ECF0FB] group-hover:bg-[#26272C] flex justify-center items-center trasition-all duration-1000 ease-in-out"
+                >
+                  <i
+                    class="fa-solid fa-check text-[#2E68FD] group-hover:text-white trasition-all duration-1000 ease-in-out"
+                  ></i>
+                </div>
+                <p
+                  class="ml-2 group-hover:!text-[#B1B2B2] trasition-all duration-1000 ease-in-out"
+                >
+                  Email support
+                </p>
+              </div>
+            </div>
+            <button
+              class="w-full font-semibold max-md:text-sm px-6 max-md:px-2.5 py-4 max-md:py-3 rounded-full border border-[#01081B] cursor-pointer mt-auto group-hover:bg-[#2E68FD] group-hover:text-white trasition-all duration-1000 ease-in-out"
+            >
+              Get Free Plan
+            </button>
+          </div>
+
+          <div
+            class="bg-white border border-[#E7E7E8] rounded-2xl px-6 py-10 flex flex-col group hover:bg-[#01081B] trasition-all duration-1000 ease-in-out"
+          >
+            <div class="pb-6">
+              <h3
+                class="font-bold text-[#01081B] text-2xl group-hover:text-white trasition-all duration-1000 ease-in-out"
+              >
+                Advanced
+              </h3>
+              <p
+                class="mt-1 mb-5.5 group-hover:!text-[#B1B2B2] trasition-all duration-1000 ease-in-out"
+              >
+                Minimal fees for advanced transactions
+              </p>
+              <span
+                class="text-[#01081B] font-bold text-[56px] max-md:text-3xl group-hover:text-white trasition-all duration-1000 ease-in-out"
+                >$19</span
+              ><span
+                class="group-hover:text-[#B1B2B2] trasition-all duration-1000 ease-in-out"
+                >/month</span
+              >
+            </div>
+            <div class="border-t border-t-[#CBCBCB] pt-6 mb-18 max-md:mb-4">
+              <div class="flex items-center mb-2">
+                <div
+                  class="rounded-full h-7 w-7 bg-[#ECF0FB] group-hover:bg-[#26272C] flex justify-center items-center trasition-all duration-1000 ease-in-out"
+                >
+                  <i
+                    class="fa-solid fa-check text-[#2E68FD] group-hover:text-white trasition-all duration-1000 ease-in-out"
+                  ></i>
+                </div>
+                <p
+                  class="ml-2 group-hover:!text-[#B1B2B2] trasition-all duration-1000 ease-in-out"
+                >
+                  Up to 1000 transections per month
+                </p>
+              </div>
+              <div class="flex items-center mb-2">
+                <div
+                  class="rounded-full h-7 w-7 bg-[#ECF0FB] group-hover:bg-[#26272C] flex justify-center items-center trasition-all duration-1000 ease-in-out"
+                >
+                  <i
+                    class="fa-solid fa-check text-[#2E68FD] group-hover:text-white trasition-all duration-1000 ease-in-out"
+                  ></i>
+                </div>
+                <p
+                  class="ml-2 group-hover:!text-[#B1B2B2] trasition-all duration-1000 ease-in-out"
+                >
+                  Advanced proud protection
+                </p>
+              </div>
+              <div class="flex items-center mb-2">
+                <div
+                  class="rounded-full h-7 w-7 bg-[#ECF0FB] group-hover:bg-[#26272C] flex justify-center items-center trasition-all duration-1000 ease-in-out"
+                >
+                  <i
+                    class="fa-solid fa-check text-[#2E68FD] group-hover:text-white trasition-all duration-1000 ease-in-out"
+                  ></i>
+                </div>
+                <p
+                  class="ml-2 group-hover:!text-[#B1B2B2] trasition-all duration-1000 ease-in-out"
+                >
+                  Detailed transaction reports
+                </p>
+              </div>
+              <div class="flex items-center mb-2">
+                <div
+                  class="rounded-full h-7 w-7 bg-[#ECF0FB] group-hover:bg-[#26272C] flex justify-center items-center trasition-all duration-1000 ease-in-out"
+                >
+                  <i
+                    class="fa-solid fa-check text-[#2E68FD] group-hover:text-white trasition-all duration-1000 ease-in-out"
+                  ></i>
+                </div>
+                <p
+                  class="ml-2 group-hover:!text-[#B1B2B2] trasition-all duration-1000 ease-in-out"
+                >
+                  Priority email & chat support
+                </p>
+              </div>
+            </div>
+            <button
+              class="w-full font-semibold max-md:text-sm px-6 max-md:px-2.5 py-4 max-md:py-3 rounded-full border border-[#01081B] cursor-pointer mt-auto group-hover:bg-[#2E68FD] group-hover:text-white trasition-all duration-1000 ease-in-out"
+            >
+              Get Advanced Plan
+            </button>
+          </div>
+
+          <div
+            class="bg-white border border-[#E7E7E8] rounded-2xl px-6 py-10 flex flex-col group hover:bg-[#01081B] trasition-all duration-1000 ease-in-out"
+          >
+            <div class="pb-6">
+              <h3
+                class="font-bold text-[#01081B] text-2xl group-hover:text-white trasition-all duration-1000 ease-in-out"
+              >
+                Business
+              </h3>
+              <p
+                class="mt-1 mb-5.5 group-hover:!text-[#B1B2B2] trasition-all duration-1000 ease-in-out"
+              >
+                Premium business transactions
+              </p>
+              <span
+                class="text-[#01081B] font-bold text-[56px] max-md:text-3xl group-hover:text-white trasition-all duration-1000 ease-in-out"
+                >$29</span
+              ><span
+                class="group-hover:text-[#B1B2B2] trasition-all duration-1000 ease-in-out"
+                >/month</span
+              >
+            </div>
+            <div class="border-t border-t-[#CBCBCB] pt-6 mb-18 max-md:mb-4">
+              <div class="flex items-center mb-2">
+                <div
+                  class="rounded-full h-7 w-7 bg-[#ECF0FB] group-hover:bg-[#26272C] flex justify-center items-center trasition-all duration-1000 ease-in-out"
+                >
+                  <i
+                    class="fa-solid fa-check text-[#2E68FD] group-hover:text-white trasition-all duration-1000 ease-in-out"
+                  ></i>
+                </div>
+                <p
+                  class="ml-2 group-hover:!text-[#B1B2B2] trasition-all duration-1000 ease-in-out"
+                >
+                  Unlimited transections per month
+                </p>
+              </div>
+              <div class="flex items-center mb-2">
+                <div
+                  class="rounded-full h-7 w-7 bg-[#ECF0FB] group-hover:bg-[#26272C] flex justify-center items-center trasition-all duration-1000 ease-in-out"
+                >
+                  <i
+                    class="fa-solid fa-check text-[#2E68FD] group-hover:text-white trasition-all duration-1000 ease-in-out"
+                  ></i>
+                </div>
+                <p
+                  class="ml-2 group-hover:!text-[#B1B2B2] trasition-all duration-1000 ease-in-out"
+                >
+                  Premium proud protection
+                </p>
+              </div>
+              <div class="flex items-center mb-2">
+                <div
+                  class="rounded-full h-7 w-7 bg-[#ECF0FB] group-hover:bg-[#26272C] flex justify-center items-center trasition-all duration-1000 ease-in-out"
+                >
+                  <i
+                    class="fa-solid fa-check text-[#2E68FD] group-hover:text-white trasition-all duration-1000 ease-in-out"
+                  ></i>
+                </div>
+                <p
+                  class="ml-2 group-hover:!text-[#B1B2B2] trasition-all duration-1000 ease-in-out"
+                >
+                  Detailed transaction reports
+                </p>
+              </div>
+              <div class="flex items-center mb-2">
+                <div
+                  class="rounded-full h-7 w-7 bg-[#ECF0FB] group-hover:bg-[#26272C] flex justify-center items-center trasition-all duration-1000 ease-in-out"
+                >
+                  <i
+                    class="fa-solid fa-check text-[#2E68FD] group-hover:text-white trasition-all duration-1000 ease-in-out"
+                  ></i>
+                </div>
+                <p
+                  class="ml-2 group-hover:!text-[#B1B2B2] trasition-all duration-1000 ease-in-out"
+                >
+                  Priority email & chat support
+                </p>
+              </div>
+            </div>
+            <button
+              class="w-full font-semibold max-md:text-sm px-6 max-md:px-2.5 py-4 max-md:py-3 rounded-full border border-[#01081B] cursor-pointer mt-auto group-hover:bg-[#2E68FD] group-hover:text-white trasition-all duration-1000 ease-in-out"
+            >
+              Get Business Plan
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="testimonial "
+      class="py-30 max-lg:py-15 max-md:pt-7.5 max-md:pb-25 bg-[#F6F6F6] relative before:content-[''] before:absolute before:bottom-[21%] before:right-[0%] before:translate-x-[-50%] before:w-[500px] before:h-[250px] before:bg-[#CD9BFF] before:bg-[radial-gradient(closest-side,rgba(213,174,228,1),#F6F6F6)] before:z-10 before:backdrop-blur-[200px] before:max-md:hidden"
+    >
+      <div class="max-w-[73.125rem] w-full mx-auto px-4">
+        <div class="relative z-20">
+          <div class="grid grid-cols-1 md:grid-cols-2 items-center">
+            <div class="text-start md:pb-24 mb-5 md:mb-0">
+              <span
+                class="text-[#932EFA] font-semibold"
+                style="font-family: 'Outfit'"
+                >TESTIMONIAL</span
+              >
+              <h2
+                class="font-bold text-[40px] max-lg:text-3xl max-md:text-2xl text-[#01081B] max-w-[420px] w-full"
+              >
+                We've build trust with reviews from real users
+              </h2>
+              <p class="max-w-[461px]">
+                Boost your credibility by featuring genuine testimonials from
+                real users, showcasing their positive experiences and
+                satisfaction with Monks Pay services.
+              </p>
+            </div>
+            <div class="slick-carousel">
+              <div class="slider">
+                <div>
+                  <div class="px-6 py-8 bg-white rounded-2xl mx-3">
+                    <div class="flex items-center gap-1">
+                      <img src="./images/Vector.svg" alt="Star" />
+                      <img src="./images/Vector.svg" alt="Star" />
+                      <img src="./images/Vector.svg" alt="Star" />
+                      <img src="./images/Vector.svg" alt="Star" />
+                      <img src="./images/Vector.svg" alt="Star" />
+                    </div>
+                    <p class="mt-4 mb-8">
+                      Experience a payment app built on simplicity and
+                      transparency. No hidden fees, just a seamless user
+                      experience that makes every transaction easy and
+                      stress-free. Say goodbye to confusion and hello to
+                      straightforward payments.
+                    </p>
+                    <div class="flex">
+                      <img src="./images/p-1.svg" alt="person-1" />
+                      <div class="ml-2">
+                        <h6 class="text-lg font-semibold text-[#01081B]">
+                          Ethan Williams
+                        </h6>
+                        <p>Digital Marketing Specialist</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="px-6 py-8 bg-white rounded-2xl mx-3">
+                    <div class="flex items-center gap-1">
+                      <img src="./images/Vector.svg" alt="Star" />
+                      <img src="./images/Vector.svg" alt="Star" />
+                      <img src="./images/Vector.svg" alt="Star" />
+                      <img src="./images/Vector.svg" alt="Star" />
+                      <img src="./images/Vector.svg" alt="Star" />
+                    </div>
+                    <p class="mt-4 mb-8">
+                      Discover a payment app focused on simplicity and
+                      transparency. Enjoy a seamless experience with no hidden
+                      fees, providing clarity and ease in every transaction.
+                      It's designed to put you in control of your payments.
+                    </p>
+                    <div class="flex">
+                      <img src="./images/p-2.png" alt="person-2" />
+                      <div class="ml-2">
+                        <h6 class="text-lg font-semibold text-[#01081B]">
+                          Daniel Thompson
+                        </h6>
+                        <p>Product Designer</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-30 max-lg:py-15 max-md:py-7.5">
+      <div class="max-w-[73.125rem] w-full mx-auto px-4">
+        <div
+          class="flex justify-center items-center p-4 min-h-[452px] text-center bg-[url('./images/footer.png')] bg-cover bg-no-reapet bg-center bg-[#000000B2] hover:bg-[#00000066] trasition-all duration-1000 ease-in-out bg-blend-darken rounded-2xl"
+        >
+          <div class="max-w-[580px]">
+            <h2 class="text-[26px] lg:text-[40px] text-white font-bold">
+              Ready to experience seamless secure payments globally
+            </h2>
+            <p class="!text-white mt-3">
+              Ready for hassle-free, secure payments anywhere in the world?
+              Start using Monks Pay today it's fast, free, and focused on
+              keeping your transactions secure!
+            </p>
+            <div
+              class="mt-10 md:w-full max-md:mx-auto flex flex-col md:flex-row md:justify-center"
+            >
+              <button
+                class="mb-2.5 md:mb-0 md:mx-1.5 text-white bg-transparent max-md:px-3 max-md:py-2 px-6 py-4 border rounded-full cursor-pointer hover:bg-[#2E68FD] hover:border-[#2E68FD] trasition-all duration-1000 ease-in-out"
+              >
+                Download the App
+              </button>
+              <button
+                class="mb-2.5 md:mb-0 md:mx-1.5 text-white bg-transparent max-md:px-3 max-md:py-2 px-6 py-4 border rounded-full cursor-pointer hover:bg-[#2E68FD] hover:border-[#2E68FD] trasition-all duration-1000 ease-in-out"
+              >
+                Get Started Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer
+      class="pb-8 relative before:content-[''] before:absolute before:bottom-[-35%] before:left-[50%] before:translate-x-[-50%] before:w-[500px] before:h-[250px] before:bg-[#CD9BFF] before:bg-[radial-gradient(closest-side,rgba(213,174,228,1),white)] before:-z-10 before:backdrop-blur-[200px] before:max-md:hidden overflow-hidden"
+    >
+      <div class="max-w-[73.125rem] w-full mx-auto px-4">
+        <div
+          class="flex flex-col md:flex-row md:justify-between md:items-center mb-5 lg:mb-10"
+        >
+          <div class="">
+            <a href="#" class="flex items-center max-md:justify-center">
+              <img src="./images/logo.svg" alt="logo" />
+              <span class="text-[28px] font-bold ml-2">Monks Pay</span>
+            </a>
+            <p class="mt-4 max-w-[278px] max-md:mx-auto max-md:text-center">
+              Monks Pay offers secure, seamless, and fee-free payments for
+              effortless global transactions.
+            </p>
+          </div>
+          <div class="flex max-md:justify-center gap-25 max-md:mt-2.5">
+            <div>
+              <h6 class="font-bold text-[#01081B] text-xl">Short links</h6>
+              <ul class="mt-4 custom-font">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#benifits">How it works</a></li>
+                <li><a href="#security">Security</a></li>
+                <li><a href="#testimonial">Testimonial</a></li>
+              </ul>
+            </div>
+            <div>
+              <h6 class="font-bold text-[#01081B] text-xl">Other pages</h6>
+              <ul class="mt-4 custom-font">
+                <li><a href="#features">Privacy policy</a></li>
+                <li><a href="#benifits">Terms & conditions</a></li>
+                <li><a href="#security">404</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="flex justify-between items-center pt-4 lg:pt-8 border-t border-[#E7E7E8]"
+        >
+          <div>
+            <p class="inline">Built in Framer</p>
+            <p class="inline ml-6">Get This Template</p>
+          </div>
+          <p>2024 © Design Monks. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+    ></script>
+    <script src="./jquery/script.js"></script>
+  </body>
+</html>

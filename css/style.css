@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Urbanist";
+  scrollbar-color: white black;
+}
+.font-sf-compact {
+  font-family: "SF Compact Text";
+}
+p,
+button,
+.custom-font,
+.custom-font a {
+  font-family: "Outfit";
+  line-height: 150%;
+}
+p {
+  color: #4d525f;
+}
+h1,
+h2 {
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.scroll-infinite {
+  animation: scroll 20s linear infinite;
+}
+@keyframes scroll {
+  to {
+    transform: translateX(calc(-100% - 72px));
+  }
+}
+
+.slider {
+  position: relative;
+}
+.slick-prev,
+.slick-next {
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  top: initial;
+  bottom: -28px;
+  left: 0;
+  background-color: white;
+  border: 1px solid #cfd0d1;
+  border-radius: 100%;
+  z-index: 1;
+  opacity: 1;
+  transition: all 1s ease-in-out;
+}
+.slick-prev {
+  left: calc(-94% - 30px);
+}
+.slick-next {
+  left: calc(-94% + 30px);
+}
+.slick-prev::before,
+.slick-next::before {
+  color: black;
+  font-family: "FontAwesome";
+  transition: all 1s ease-in-out;
+}
+.slick-prev:hover,
+.slick-next:hover {
+  background-color: black;
+}
+.slick-prev:hover::before,
+.slick-next:hover::before {
+  color: white;
+  opacity: 1;
+}
+.slider .slick-prev:before {
+  content: "\f053";
+}
+.slider .slick-next:before {
+  content: "\f054";
+}
+.slick-list {
+  /* overflow:visible; */
+  /* right: -99%; */
+  padding: 0 100px 0 0;
+}
+
+/* .over-slider {
+  position: relative;
+  z-index: 30;
+}
+
+.slick-list{
+  overflow: visible;
+  padding:0 20% 0 0;
+  position: relative;
+}
+
+.slick-list::after {
+  content: ' ';
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  width: 4000px;
+  right: 100%;
+  background-color: #F6F6F6;
+} */
+
+@media only screen and (max-width: 767px) {
+  .slick-prev,
+  .slick-next {
+    width: 30px;
+    height: 30px;
+    bottom: -14%;
+    transform: translateX(-50%);
+  }
+  .slick-prev {
+    left: calc(50% - 20px);
+  }
+
+  .slick-next {
+    left: calc(50% + 20px);
+  }
+}
+@media only screen and (max-width: 992px) {
+  .slick-list {
+    padding: 0;
+  }
+}
